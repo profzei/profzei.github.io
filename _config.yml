@@ -1,0 +1,15 @@
+# theme: jekyll-theme-cayman
+title: Prof. R. Zei
+description: Personal WebSite
+show_downloads: true
+google_analytics:
+
+highlighter: rouge
+
+##### BUILD SETTINGS #####
+# incremental: true
+
+# strip all unncessary whitespace and comments
+# http://jch.penibelst.de/
+compress_html:
+  blanklines: true

@@ -1,0 +1,24 @@
+{%- if page.layout == 'home' -%}
+
+<!-- <div class="jumbotron jumbotron-fluid header header-page"> -->
+  <!-- <div class="container"> -->
+  <header class="page-header" role="banner">
+    <h1 class="project-name">Prof. Zei</h1>
+    <h2 class="project-tagline">Personal website</h2>
+        <!-- <a href="https://github.com/pages-themes/cayman" class="btn">View on GitHub</a> -->
+        <!-- <a href="https://github.com/pages-themes/cayman/zipball/master" class="btn">Download .zip</a> -->
+        <!-- <a href="https://github.com/pages-themes/cayman/tarball/master" class="btn">Download .tar.gz</a> -->
+  </header>
+  <!-- </div> -->
+<!-- </div> -->
+
+{%- else -%}
+
+<div class="jumbotron jumbotron-fluid header header-page">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <h2>{{ page.description }}</h2>
+  </div>
+</div>
+
+{%- endif -%}
