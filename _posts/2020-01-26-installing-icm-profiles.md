@@ -22,7 +22,7 @@ Some third-party apps (like screen dimming) will need to be disabled before load
 	- Go to the “Devices” tab and select your display. 
 	- Under “Current Profile”, select “Other”. 
 	- Locate the ICC Profile and select it.
-3.	**Login Screen: Note**: This is an optional step to load the ICC Profile to the computer’s login screen. 
+3.	**Login Screen**: Note: This is an optional step to load the ICC Profile to the computer’s login screen. 
 	- Press Command + Spacebar to open spotlight (default shortcut). 
 	- Type “Directory Utility” and open the application. 
 	- Unlock the application using your administrator’s password. 
