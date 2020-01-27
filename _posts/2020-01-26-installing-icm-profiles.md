@@ -9,8 +9,10 @@ excerpt: How to load a display calibration ICC-ICM Profile using the Mac
 
 *   [TrueColor](https://truecolor.us/tutorials/installing-icc-profiles-mac/)
 
-## USB port limit patches and USBInjectAll.kext
+## How to add ICC-ICM profile for color settings
 
+Download the [JDI (i7) profile](https://www.notebookcheck.net/uploads/tx_nbc2/HUAWEI_MateBook_X_Pro_8550u_LPM139M422A.icm) from 
+[notebookcheck](https://www.notebookcheck.net/Huawei-Matebook-X-Pro-i5-8250U-MX150-Laptop-Review.303146.0.html#toc-display).
 Default ICC Profile Location: ```/Library/ColorSync/Profiles/Displays```
 Some third-party apps (like screen dimming) will need to be disabled before loading a new ICC-ICM Profile 
 (or else the computer will need to be restarted afterwards for the changes to take effect).
